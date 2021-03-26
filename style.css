@@ -1,0 +1,78 @@
+* {
+  margin-top: 0px;
+
+}
+body {
+  background-color: rgb(232, 223, 235);
+}
+
+.container {
+  margin: auto;
+  height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.banner {
+  background: url("https://source.unsplash.com/user/erondu/1600x900");
+   background-size:cover;
+   height: 400px;
+}
+h1 {
+  font-size: 70px;
+  color: rgb(240, 247, 247);
+  padding-top: 150px;
+  text-align: center;
+}
+
+h2 {
+  opacity: 65%;
+  color: rgb(240, 247, 247);
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial. Helvetica, serif;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: rgb(135, 150, 71);
+  font-family: fantasy;
+  opacity: 60%;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  word-spacing: 3px;
+  line-height: px;
+}
+
+a {
+  font-size: 30px;
+  background-color: rgb(242, 255, 189);
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  background-color: rgb(210, 219, 171);
+}
+.banner:hover {
+  text-shadow: 2px 2px 3px rgb(24, 76, 219);
+}
+h3:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+    padding-top: 30px;
+  }
+  .banner {
+    height: 50%;
+  }
+}
